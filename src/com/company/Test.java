@@ -36,7 +36,7 @@ public class Test {
         }
         System.out.println();
 
-        System.out.println("The books wchih Bolek already read are: ");
+        System.out.println("The books wchih Bolesław already read are: ");
         for (int i = 0; i<Bolek.getReadBooks().size();i++){
             System.out.print(Bolek.getReadBooks().get(i).getBook().getName()+", ");
         }
