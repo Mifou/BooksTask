@@ -15,13 +15,13 @@ public class Test {
 
         Bookstore Empik = new Bookstore();
 
-        BookstoreBook shiningStore = new BookstoreBook(39.9, shining);
-        BookstoreBook petSementeryStore = new BookstoreBook(29.9, petSementery);
-        BookstoreBook ItStore = new BookstoreBook(37.5, It);
+        BookstoreBook shiningStore = new BookstoreBook(shining);
+        BookstoreBook petSementeryStore = new BookstoreBook(petSementery);
+        BookstoreBook ItStore = new BookstoreBook(It);
 
-        Empik.addbookstorebook(shiningStore);
-        Empik.addbookstorebook(petSementeryStore);
-        Empik.addbookstorebook(ItStore);
+        Empik.addBookstoreBook(shiningStore, 10);
+        Empik.addBookstoreBook(petSementeryStore, 20);
+        Empik.addBookstoreBook(ItStore, 30);
 
         User Bolek = new User("Bolek", 72);
         Bolek.buyBook(shiningStore);

@@ -12,9 +12,12 @@ public class BookstoreBook {
         return book;
     }
 
-    public BookstoreBook (double price, Book book){
-        this.price = price;
+    public BookstoreBook (Book book){
         this.book = book;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
 
